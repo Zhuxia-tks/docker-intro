@@ -14,5 +14,7 @@ COPY Gemfile .
 #rubyライブラリのインストール
 RUN bundle install
 
+EXPOSE 4567
+
 #実行コマンド
 CMD ["ruby", "./src/app.rb", "-o", "0.0.0.0"]
