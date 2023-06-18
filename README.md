@@ -1,10 +1,11 @@
 # docker-intro
 
 ## Dockerのインストール
+
 公式サイトからインストール
 [https://www.docker.com/](https://www.docker.com/)
 
-##　Hello world
+## Hello world
 
 1. リポジトリのクローン
     
@@ -28,4 +29,3 @@
 4. ブラウザで`http://localhost:8080/`にアクセス
     
     Hello worldと表示されたらOK
-    
